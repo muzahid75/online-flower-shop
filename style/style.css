@@ -76,7 +76,7 @@ img.image{
     margin: 0px auto 50px auto;
 }
 .feature-content{
-    width: 30%;
+    width: 46%;
     margin: 0px auto 50px auto;
     text-align: center;
 }
@@ -135,3 +135,43 @@ p.fig{
 .support-box-child{
     margin-bottom: 20px;
 }
+/* support section end  */
+/* deal section start  */
+
+.deal{
+    background-color: #f2dee8;
+    margin-bottom: 50px;
+}
+.parent{
+    width: 80%;
+    margin: 0px auto;
+    display: grid;
+    padding: 20px 100px 20px 150px;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 60px;
+}
+.deal-content{
+    width: 125%;
+}
+.deal-content a{
+    text-decoration: none;
+}
+.deal-title{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.deal-paragraph{
+    margin-bottom: 20px;
+}
+.deal-btn{
+    text-align: center;
+}
+.deal-image{
+    width: 60%;
+    margin: 0px auto;
+    height: 90%;
+}
+/* deal section end  */
