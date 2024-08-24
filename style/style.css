@@ -207,6 +207,56 @@ span.color{
 
 /* instagram section end  */
 
+/* form section start  */
+.input-form{
+    width: 80%;
+    height: 350px;
+    border-radius: 8px;
+    margin: 0px auto 50px auto;
+    background-image: url('../Flower Asset/Rectangle\ 9.png');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.from-parent{
+    width: 75%;
+    text-align: center;
+    padding: 10px;
+}
+.from-title{
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+.from-paragraph{
+    margin-bottom: 30px;
+}
+input[type="email"]{
+    width: 75%;
+    height: 45px;
+    margin-right: 10px;
+    color: rgba(39, 39, 39, 0.6);
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+}
+input[type="submit"]{
+    width: 15%;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: rgb(229, 84, 115);
+    color: white;
+    font-weight: bold;
+}
+/* form section end  */
+
 /* footer section start  */
 .footer{
     background-color: black;
