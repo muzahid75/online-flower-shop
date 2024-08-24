@@ -8,3 +8,56 @@
     margin: 0px;
     box-sizing: border-box;
 }
+.bg-primary{
+    background: rgba(229, 84, 115, 0.1);
+}
+
+/* banner start  */
+
+.header{
+    margin-bottom: 50px;
+}
+.banner{
+    width: 80%;
+    border: 2px solid red;
+    margin: 0px auto;
+    display: grid;
+    padding: 20px 0px;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.banner-content{
+    border: 2px solid black;
+    width: 90%;
+}
+.banner-content a{
+    text-decoration: none;
+}
+.banner-title{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.banner-paragraph{
+    margin-bottom: 20px;
+}
+.btn{
+    color: white;
+    background-color: deeppink;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.banner-image{
+    border: 2px solid black;
+    width: 70%;
+}
+img.image{
+    width: 100%;
+    height: 100%;
+}
+
+/* banner end  */
