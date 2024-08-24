@@ -11,6 +11,18 @@
 .bg-primary{
     background: rgba(229, 84, 115, 0.1);
 }
+.primary-color{
+    color: rgb(39, 39, 39);
+}
+.secondary-color{
+    color: rgba(39, 39, 39, 0.6);
+}
+.primary-font-size{
+    font-size: 2.5rem;
+}
+.secondary-font-size{
+    font-size: 2rem;
+}
 
 /* banner start  */
 
@@ -19,7 +31,6 @@
 }
 .banner{
     width: 80%;
-    border: 2px solid red;
     margin: 0px auto;
     display: grid;
     padding: 20px 0px;
@@ -29,14 +40,13 @@
     gap: 40px;
 }
 .banner-content{
-    border: 2px solid black;
-    width: 90%;
+    width: 95%;
 }
 .banner-content a{
     text-decoration: none;
 }
 .banner-title{
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -52,7 +62,6 @@
     border-radius: 10px;
 }
 .banner-image{
-    border: 2px solid black;
     width: 70%;
 }
 img.image{
@@ -61,3 +70,68 @@ img.image{
 }
 
 /* banner end  */
+/* feature section start  */
+.feature{
+    width: 80%;
+    margin: 0px auto 50px auto;
+}
+.feature-content{
+    width: 30%;
+    margin: 0px auto 50px auto;
+    text-align: center;
+}
+.feature-title{
+    font-weight: bold;
+}
+
+.feature-image{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+    padding: 20px;
+    max-height: 500px;
+    
+}
+.feature-image .box{
+    height: 80%;
+    text-align: center;
+}
+.feature-image .box .box-child{
+    height: 90%;
+    padding: 30px;
+    border-top-right-radius:50% ;
+    border-top-left-radius: 50%;
+}
+#one{
+    background-color:#f2dee8;
+}
+#two{
+    background-color:#daf0f1;
+}
+#three{
+    background-color:#e4ecdc;
+}
+p.fig{
+    width: 40%;
+    margin: 30px auto 0px auto;
+}
+
+/* feature section end  */
+/* supprot section start  */
+.support{
+    width: 80%;
+    height: 250px;
+    margin: 0px auto 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 0px 130px;
+}
+
+.support-box-child{
+    margin-bottom: 20px;
+}
