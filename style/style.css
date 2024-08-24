@@ -175,3 +175,26 @@ p.fig{
     height: 90%;
 }
 /* deal section end  */
+
+/* instagram section start  */
+.instagram{
+    width: 80%;
+    margin: 0px auto 50px auto;
+}
+.instagram-content{
+    width: 46%;
+    margin: 0px auto 30px auto;
+    text-align: center;
+}
+.instagram-title{
+    font-weight: bold;
+}
+
+.instagram-image{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 24px;
+}
+.instagram-box{
+    text-align: center;
+}
